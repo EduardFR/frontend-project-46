@@ -8,7 +8,7 @@
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm jest"
   },
   "repository": {
     "type": "git",
@@ -16,20 +16,24 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "commander": "^11.1.0",
-    "fs": "^0.0.1-security",
-    "lodash": "^4.17.21",
-    "yaml": "^2.3.4"
-  },
-  "devDependencies": {
-    "eslint": "^8.54.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.0",
-    "jest": "^29.7.0"
-  },
   "bugs": {
     "url": "https://github.com/EduardFR/frontend-project-46/issues"
   },
-  "homepage": "https://github.com/EduardFR/frontend-project-46#readme"
+  "homepage": "https://github.com/EduardFR/frontend-project-46#readme",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "dependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.11",
+    "commander": "^11.1.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "npmrc": "^1.1.1",
+    "readfilesync": "^1.1.5",
+    "readline-sync": "^1.4.10",
+    "yaml": "^2.3.4"
+  }
 }
